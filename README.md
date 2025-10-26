@@ -39,10 +39,14 @@ It also integrates file handling, modular programming, and an interactive consol
    <img width="398" height="250" alt="image" src="https://github.com/user-attachments/assets/9094f136-dd1d-45fc-9c3b-21ab5f5b3fdf" />
    <img width="398" height="250" alt="image" src="https://github.com/user-attachments/assets/307cf82b-5c63-4f1f-95b7-8d96b8ff072f" />
    <img width="800" height="200" alt="image" src="https://github.com/user-attachments/assets/56fa8aa2-6a8d-4085-9a5d-36ea04506c88" />
+----
+## Screenshots
 
+### Main Menu
+<img width="370" height="400" alt="image" src="https://github.com/user-attachments/assets/63355515-ad0e-422c-a90d-54e79be77417" />
 
+### Sample Quiz Question
+<img width="370" height="400" alt="image" src="https://github.com/user-attachments/assets/fcdde783-73f8-4048-9045-9fd8c9b43b8a" />
 
-
-
-
-   
+### Leaderboard
+<img width="370" height="125" alt="image" src="https://github.com/user-attachments/assets/0388370f-16c9-4271-b734-cbcdfb88d437" />
