@@ -43,10 +43,10 @@ It also integrates file handling, modular programming, and an interactive consol
 ## Screenshots
 
 ### Main Menu
-<img width="1090" height="500" alt="Screenshot 2025-10-26 165547" src="https://github.com/user-attachments/assets/b7f92c22-57a4-4978-b802-4129f2ee8918" />
+<img width="1090" height="500" alt="Screenshot 2025-10-26 165624" src="https://github.com/user-attachments/assets/ece07346-80b6-4e64-b41c-da7ed7185d07" />
 
 ### Sample Quiz Question
-<img width="1090" height="500" alt="Screenshot 2025-10-26 165624" src="https://github.com/user-attachments/assets/ece07346-80b6-4e64-b41c-da7ed7185d07" />
+<img width="1090" height="500" alt="Screenshot 2025-10-26 165547" src="https://github.com/user-attachments/assets/b7f92c22-57a4-4978-b802-4129f2ee8918" />
 
 ### Leaderboard
 <img width="1090" height="165" alt="image" src="https://github.com/user-attachments/assets/790e7e00-97c5-4f39-9c05-56f8e95107ee" />
