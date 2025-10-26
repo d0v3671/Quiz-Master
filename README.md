@@ -4,7 +4,7 @@
 The project applies these structures to manage quiz questions, leaderboard rankings, and quiz history efficiently.
 It also integrates file handling, modular programming, and an interactive console interface to provide a complete user experience.
 ### 🧩 Features
-- 🎲 Randomly selects questions each quiz session  
+- 🎲 Randomly selects 5 questions each quiz session  
 - ✅ Only accepts valid answers (A/B/C/D)  
 - 💾 Stores scores locally in a file  
 - 🏆 Leaderboard system for top scores  
@@ -43,10 +43,10 @@ It also integrates file handling, modular programming, and an interactive consol
 ## Screenshots
 
 ### Main Menu
-<img width="370" height="400" alt="image" src="https://github.com/user-attachments/assets/63355515-ad0e-422c-a90d-54e79be77417" />
+<img width="1090" height="500" alt="Screenshot 2025-10-26 165547" src="https://github.com/user-attachments/assets/b7f92c22-57a4-4978-b802-4129f2ee8918" />
 
 ### Sample Quiz Question
-<img width="370" height="400" alt="image" src="https://github.com/user-attachments/assets/fcdde783-73f8-4048-9045-9fd8c9b43b8a" />
+<img width="1090" height="500" alt="Screenshot 2025-10-26 165624" src="https://github.com/user-attachments/assets/ece07346-80b6-4e64-b41c-da7ed7185d07" />
 
 ### Leaderboard
-<img width="370" height="125" alt="image" src="https://github.com/user-attachments/assets/0388370f-16c9-4271-b734-cbcdfb88d437" />
+<img width="1090" height="165" alt="image" src="https://github.com/user-attachments/assets/790e7e00-97c5-4f39-9c05-56f8e95107ee" />
