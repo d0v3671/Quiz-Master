@@ -48,11 +48,6 @@ struct Stack {
     int top;
 };
 
-struct PlayerQueue {
-    char names[10][MAX_NAME_LENGTH];
-    int front, rear;
-};
-
 //-----------------------------------------------
 // FUNCTION DECLARATIONS
 //-----------------------------------------------
@@ -63,7 +58,6 @@ void rules();
 
 // Linked List (Question Bank)
 struct QuestionNode* loadQuestions();
-void displayQuestions(struct QuestionNode *head);
 struct QuestionNode* shuffleQuestions(struct QuestionNode *head);
 int runQuiz(struct QuestionNode *head, char playerName[], struct Stack *s);
 
@@ -77,10 +71,6 @@ void displayLeaderboard(struct PlayerNode *root);
 // Stack (Quiz History)
 void pushAttempt(struct Stack *s, struct Attempt a);
 void displayAttempts(struct Stack *s);
-
-// Queue (Optional Multiplayer)
-void enqueue(struct PlayerQueue *q, char name[]);
-char* dequeue(struct PlayerQueue *q);
 
 //-----------------------------------------------
 // UTILITY FUNCTIONS
@@ -172,14 +162,6 @@ struct QuestionNode* shuffleQuestions(struct QuestionNode *head) {
     }
 
     return head;
-}
-
-void displayQuestions(struct QuestionNode *head) {
-    int i = 1;
-    while (head) {
-        printf("%d. %s\n", i++, head->data.question);
-        head = head->next;
-    }
 }
 
 //-----------------------------------------------
@@ -337,6 +319,7 @@ int main() {
     printf("          WELCOME TO QUIZMASTER DS       \n");
     printf("=========================================\n");
     getPlayerName(playerName);
+    rules();  // Show rules once after name input
 
     while (running) {
         printf("\n=========================================\n");
@@ -344,10 +327,9 @@ int main() {
         printf("=========================================\n");
         printf("1. Start Quiz\n");
         printf("2. View Leaderboard\n");
-        printf("3. View Rules\n");
-        printf("4. View Quiz History\n");
-        printf("5. Change Player Name\n");
-        printf("6. Exit\n");
+        printf("3. View Quiz History\n");
+        printf("4. Change Player Name\n");
+        printf("5. Exit\n");
         printf("=========================================\n");
         printf("Enter your choice: ");
 
@@ -375,15 +357,13 @@ int main() {
                 displayLeaderboard(leaderboard);
                 break;
             case 3:
-                rules();
-                break;
-            case 4:
                 displayAttempts(&quizHistory);
                 break;
-            case 5:
+            case 4:
                 getPlayerName(playerName);
+                rules(); // Show rules again if name is changed
                 break;
-            case 6:
+            case 5:
                 running = 0;
                 break;
             default:
